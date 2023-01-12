@@ -440,6 +440,8 @@ p {
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
+
+
 #hero {
   background: url("../img/mainBg.jpg") repeat scroll center center/cover; 
   height: 100vh;
@@ -481,6 +483,28 @@ p {
 .hero-content .list-social li i {
   color: rgb(0, 0, 0);
   font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  /* styles for narrow screens */
+  #hero {
+    background: url("../img/square.jpg") repeat scroll center center/cover; 
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* styles for narrow screens */
+  .hero-content h1 {
+    color: #fff5e7;
+  }
+  .hero-content p {
+    color: #f5ebdd;
+  }
+  .hero-content .list-social li i {
+    color: #f5ebdd;
+  }
 }
 
 /*--------------------------------------------------------------
